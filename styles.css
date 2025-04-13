@@ -50,6 +50,13 @@ body {
   font-style: italic;
 }
 
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url('./img/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
 .cta-button {
   display: inline-block;
   background-color: #4CAF50;
