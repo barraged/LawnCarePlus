@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You - Idaho Lawn Care+</title>
+  <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('./img/lawn-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
 
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.65);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .thankyou-box {
+      background: rgba(255, 255, 255, 0.9);
+      color: #333;
+      padding: 2.5rem;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .thankyou-box h1 {
+      font-size: 2rem;
+      color: #4CAF50;
+      margin-bottom: 1rem;
+    }
+
+    .thankyou-box p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .thankyou-box a {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    .thankyou-box a:hover {
+      background-color: #45a049;
+    }
+
+    @media (max-width: 640px) {
+      .thankyou-box {
+        padding: 1.5rem;
+      }
+
+      .thankyou-box h1 {
+        font-size: 1.6rem;
+      }
+
+      .thankyou-box p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="thankyou-box">
+      <h1>Thank You!</h1>
+      <p>
+        We've received your request and our team at <strong>Idaho Lawn Care+</strong> will be in touch with you shortly.
+        <br /><br />
+        We appreciate the opportunity to serve you and look forward to making your lawn look amazing!
+      </p>
+      <a href="/">Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>
